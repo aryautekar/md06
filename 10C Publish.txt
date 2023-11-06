@@ -1,0 +1,5 @@
+Publish Process when publishing a process;
+o Publish Library when publishing a library project;
+o Publish UI Library when publishing a UI library project;
+o Publish Test Cases when publishing test cases.
+o Publish Templates when publishing templates.

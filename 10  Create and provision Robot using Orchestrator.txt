@@ -1,0 +1,17 @@
+1. In Orchestrator, on the Robots page, click Add. The options to add a Standard Robot or a Floating Robot are displayed.
+2. Click the Standard Robot button. The Create a New Standard Robot window is displayed.
+3. Select the Standard Machine you want to register your Robot on. There are two possibilities:
+a. You had already created the machine on the Machines page beforehand. In this case, you 
+can select it from the Machine drop-down list.
+b. You had not created the machine. In this case, simply type the name of a new one on the Machines field and click the Provision Machine button. Note that this step also adds the 
+machine in the Machines page.
+4. In the Name field, type any name for the Robot.
+5. In the Domain\Username field, type the username that is used to login to the specified 
+machine. If the user is in a domain, you are required to specify it in 
+	a DOMAIN\username format. You must use short domain names, such as desktop\administrator and NOT desktop.local/administrator.
+6. Add the Windows password for the specified username.
+7. Select the desired robot type from the Type drop-down list. For more information, see 
+the About Robots page.
+8. Add a description for the Robot. We recommend populating this field, especially 
+when dealing with an environment with many robots.
+9. Click Create. The Robot is now displayed on the Robots page and provisioned to Orchestrator, but it is offline

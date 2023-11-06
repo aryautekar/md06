@@ -1,0 +1,27 @@
+When it comes to configuration, UiPath does not have any pre-built configuration file such
+as Visual Studio, but we can create one. It is considered to be one of the best practices to
+keep environment settings in a config file so that they can be easily changed by the user
+when required.
+
+You can also store your settings with the help of a spreadsheet or credentials. There are
+various parameters contained
+
+Name: This is the title of the project that is provided when creating a project in the create New Project window:
+
+Description: When creating a project, a description is also required. You can add the description in the Create New Project window, as shown in the preceding screenshot.
+
+Main: This is the entry point for the project. 
+
+Dependencies: These are the activities packages that are used in a project and their versions.
+
+Excluded data: Contains keyword that can be added to the name of an activity to prevent the variable and argument values from being logged at the verbose level.
+
+Tool version: The version of Studio used to create a project.
+
+Adding Credential: We can add particular settings that can be used further. For example, we can save the username and password to be used further
+
+Delete Credentials: If we want to delete a credential then we can just drag and drop the Delete Credentials activity and then define the target for the credential
+
+Get Secure Credential: This is used to get the values, that is, the username and password, that were set during the addition of a credential. We have to set the target the same as before; the output will be the username and password:
+
+Request Credential: This is a property in which the robot displays a message dialog asking the user for username and password and stores this information as a string. This can then be used in further processes. The user can select OK to provide credentials or even cancel it if they do not want to provide credentials.
